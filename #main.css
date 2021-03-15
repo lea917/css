@@ -176,8 +176,6 @@ label {
   border: none;
   width: 100%;
   border-radius: 3px;
-  cursor: pointer;
-  font-size: 17px;
 }
 
 .btn:hover {
@@ -186,74 +184,4 @@ label {
 
 span.price {
   float: right;
-  color: grey;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-Tip: Go to our HTML Form Tutorial to learn more about HTML Forms.
-
-Tip: Go to our CSS Form Tutorial to learn more about how to style form elements.
-
-Tip: Go to our CSS Flexbox Tutorial to learn more about the flexible box layout module.
-
-
-
-ADVERTISEMENT
-
-
-COLOR PICKER
-colorpicker
-LIKE US
-  
-Get certified
-by completing
-a course today!
-
-w
-3
-s
-c
-h
-o
-o
-l
-s
-C
-E
-R
-T
-I
-F
-I
-E
-D
-.
-2
-0
-2
-1
-HOW TO
-Tabs
-Dropdowns
-Accordions
-Side Navigation
-Top Navigation
-Modal Boxes
-Progress Bars
-Parallax
-Login Form
-HTML Includes
-Google Maps
-Range Sliders
-Tooltips
-Slideshow
-Sort List
-Certificates
+  color: green;
